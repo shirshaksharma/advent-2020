@@ -1,0 +1,14 @@
+{
+  "name": "advent-2020",
+  "version": "1.0.0",
+  "description": "Advent of Code 2020",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "one": "babel-node code/one/one.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6"
+  }
+}
