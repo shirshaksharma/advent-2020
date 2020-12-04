@@ -5,7 +5,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "one": "babel-node code/one/one.js"
+    "one": "babel-node code/one/one.js",
+    "two": "babel-node code/two/two.js"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
