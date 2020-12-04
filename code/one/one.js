@@ -23,7 +23,7 @@ fs.readFile("code/one/input.txt", "utf-8", (err, data) => {
       const remaining = 2020 - entry1 - entry2;
       if (remaining > 0 && entries[remaining]) {
         console.log("Part 2 : Found it");
-        // entry1 and entry2 are strings. Don't add them before converting...
+        // entry1 and entry2 are strings. Don't multiply them before converting...
         console.log(remaining * Number(entry1) * Number(entry2));
       }
     });
